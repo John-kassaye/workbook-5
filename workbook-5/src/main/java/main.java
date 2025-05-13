@@ -9,5 +9,8 @@ public class main {
         SemiTruck semiTruck = new SemiTruck("black",4,100,123,4,4);
         semiTruck.test();
 
+        Vehicle vehicle;
+        vehicle = new Car("blue",12,2,3,4,5);
+
     }
 }
