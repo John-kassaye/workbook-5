@@ -2,6 +2,12 @@ public class Car extends Vehicle{
     private int wheel;
     private int doors;
 
+    public Car(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, int wheel, int doors) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+        this.wheel = wheel;
+        this.doors = doors;
+    }
+
     public int getWheel() {
         return wheel;
     }

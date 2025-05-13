@@ -1,22 +1,12 @@
 public class main {
     public static void main(String[] args) {
-        Moped ride = new Moped();
-        ride.setColor("Red");
-        ride.setFuelCapacity(5);
+        Moped ride = new Moped("red",3,8,7);
         ride.test();
 
-        Car car = new Car();
-        car.setDoors(2);
-        car.setCargoCapacity(300);
-        car.setFuelCapacity(1000);
-        car.setColor("blue");
+        Car car = new Car("blue",2,10,49,4,4);
         car.test();
 
-        SemiTruck semiTruck = new SemiTruck();
-        semiTruck.setDoors(4);
-        semiTruck.setCargoCapacity(1222);
-        semiTruck.setFuelCapacity(400);
-        semiTruck.setColor("black");
+        SemiTruck semiTruck = new SemiTruck("black",4,100,123,4,4);
         semiTruck.test();
 
     }
