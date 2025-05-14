@@ -1,6 +1,6 @@
-package MiniProjects;
+package MiniProjects.BankAccountManager;
 
-public class CheckingAccount extends BankAccount{
+public class CheckingAccount extends BankAccount {
     private double transactionFee;
 
     public CheckingAccount(String accountHolder, double balance, double transactionFee) {

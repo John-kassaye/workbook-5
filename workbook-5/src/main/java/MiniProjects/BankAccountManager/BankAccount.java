@@ -1,4 +1,4 @@
-package MiniProjects;
+package MiniProjects.BankAccountManager;
 
 public class BankAccount {
     private String accountHolder;

@@ -1,6 +1,6 @@
-package MiniProjects;
+package MiniProjects.BankAccountManager;
 
-public class SavingsAccount extends BankAccount{
+public class SavingsAccount extends BankAccount {
     private double interestRate;
 
     public SavingsAccount(String accountHolder, double balance, double interestRate) {

@@ -1,4 +1,4 @@
-package MiniProjects;
+package MiniProjects.BankAccountManager;
 
 import java.util.ArrayList;
 import java.util.List;
